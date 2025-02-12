@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+    background-image: url(pexels-eva-bronzini-7599590.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar {
+    width: 85%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo {
+    width: 340px;
+    cursor: pointer;
+    margin-top: -1%;
+    margin-left: -1%;
+}
+
+ul {
+    margin-top: -4%;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10% 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-overflow: inherit;
+}
+
+ul li a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin: -5%;
+    padding: 4%;
+}
+
+ul li a:hover {
+    color: rgba(255, 51, 0, 0.911);
+}
+
+.info {
+    margin: 7%;
+    margin-top: 6%;
+}
+
+.info h1 {
+    font-size: 65px;
+    color: black;
+}
+
+.info h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span {
+    color: rgb(255, 81, 0);
+}
+
+.info a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 1s ease;
+}
+
+.info a:hover {
+    background-color: rgba(0, 183, 255, 0.548);
+}
+
+.image {
+    width: 30%;
+    height: 55%;
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+
+}
+
+.image img {
+    position: absolute;
+    height: 140%;
+    left: 75%;
+    bottom: 0;
+}
+
+.about {
+    background-image: url(pexels-eva-bronzini-7599590.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+    padding-left: 10%;
+}
+
+.about .my {
+    width: 500px;
+    margin: 4%;
+    align-items: center;
+    text-align: center;
+}
+
